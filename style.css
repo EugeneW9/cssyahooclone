@@ -1,0 +1,99 @@
+*{
+    background-color: oldlace;
+    box-sizing: content-box;
+}
+
+.flex-container {
+    display:flex;
+    flex-direction: column; 
+}
+
+
+
+  
+
+.box1 p {
+    height: 40px;
+    width: 200px;
+    background-color: purple;
+    color: oldlace;
+    position: relative;
+}
+
+.box2 {
+    height: 60px;
+    width: 400px;
+    background-color: purple;
+    position: relative;
+    box-sizing: content-box;
+    bottom: 20px;
+    
+}
+
+
+
+body {
+    background-image: url("ye.jpeg");
+
+}
+  
+
+
+
+input[type="text"] {
+    border: solid 5px purple  }
+
+.box3 p{
+    height: 40px;
+    width: 210px;
+    background-color: rgb(179, 102, 179);
+    position: relative;
+    bottom: 36px;
+}
+
+.box4 p{
+    height: 40px;
+    width: 210px;
+    background-color: rgb(172, 110, 172);
+    position: relative;
+    bottom: 55px;
+} 
+
+.box5 p{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(131, 70, 131);
+    position: relative;
+    bottom: 71px;
+}
+
+.box6 {
+    height: 40px;
+    width: 150px;
+    background-color: purple;
+    bottom: 200px;
+    
+}
+.grid {
+    border: 2px linen;
+    border-width: 1px;
+    grid-column-end: auto;
+    grid-template-columns: 100px 50% 200px;
+    position: absolute;
+    right: 705;
+}
+
+.events {
+    height: 100%;
+    width: 190px;
+    border: 20px solid white;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 1100px;
+    bottom: 350px;
+    color: purple;
+    background-color: white;
+
+    
+}
